@@ -19,6 +19,7 @@ h2{
 }
 p{
 	font-size:14px;
+
 }
 .visually-hidden{
 	position: absolute;
@@ -38,6 +39,7 @@ p{
 	background-color: #000;
 	border: 0;
 	font-family: inherit;
+	text-transform: uppercase;
 	text-decoration: none;
 }
 header {
@@ -57,7 +59,7 @@ header a {
 }
 section.promo{
 	color:#f7f4f1;
-	margin-bottom: 79px;
+	margin-bottom: 82px;
 }
 .widget{
 	background-color: #D3D7CFFF;
@@ -67,6 +69,7 @@ section.promo{
 label{
 	display: block;
 	margin-left: 16px;
+	margin-top: 14px;
 	margin-bottom: 8px;
 }
 input{
@@ -81,6 +84,7 @@ footer{
 	background-color: #2E3436FF;
 	background-image: url(../img/footerbg.jpg);
 	background-repeat: repeat;
+	margin-top: 65px;
 }
 footer p{
 	color:#fff;
@@ -178,3 +182,91 @@ footer p{
 			line-height: 24px;
 			margin: 0;
 		}
+
+.widget{
+	margin:0;
+	padding:47px 80px;
+	display: flex;
+	justify-content:space-between;
+	margin-bottom: 36px;
+	padding-bottom: 50px;
+}
+	.widget h2{
+		margin-top: 0;
+		margin-bottom:19px;
+	}
+	.widget p{
+		line-height: 24px;
+		margin: 0;
+	}
+	.widget .slider{
+		border: 7px solid #fff;
+		margin-top: 4px;
+		margin-bottom:20px;
+	}
+	.widget__left-block{
+		box-sizing:border-box;
+		width: 360px;
+	}
+	.widget__news__scroll-area{
+		overflow: auto;
+		max-height: 300px;
+		padding-bottom: 1px;
+	}
+	.widget__left-block .date{
+		margin-top: 0px;
+		margin-bottom:10px;
+		text-transform: none;
+		display: block;
+		padding-bottom: 12px;
+	}
+	.widget__left-block .btn.all-news{
+		margin-top: 8px;
+		display: inline-block;
+	}
+	.widget__right-block{
+		width:300px;
+	}
+	.slider-controls{
+		display: flex;
+		justify-content:space-between;
+		margin-top: 14px;
+		margin-bottom:0;
+	}
+
+	.widget.widget-contacts .widget__left-block > p{
+		margin-bottom:20px
+	}
+		.slider-controls .btn{
+			padding: 13px 50px;
+		}
+
+	
+	.buttons-wraper{
+		margin-top: 24px;
+		display:flex;
+		justify-content:space-between;
+		width: 300px;
+	}
+		.buttons-wraper .btn{
+			padding: 13px 25px;
+		}
+
+	.widget__right-block form{
+		margin-top: 15px;
+	}
+		.input-wraper{
+			display: flex;
+			justify-content: space-between;
+			margin-top: -15px;
+		}
+			form button.btn{
+				display:block;
+				width: 100%;
+				margin-top: 22px;
+			}
+	
+	.container.flex-box{
+		display:flex;
+		justify-content:flex-start;
+	}
