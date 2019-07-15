@@ -1,16 +1,73 @@
-@font-face{
+@font-face {
 	font-family: "PT Sans Narrow";
-	src:url('../fonts/web/ptsansnarrowbold.woff2');
+	src: url('../fonts/web/ptsansnarrowbold.woff2');
 	font-weight: 700;
-	font-style:normal;
+	font-style: normal;
 }
-ul{
+body {
+	font-family: "PT Sans Narrow", sans-serif;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	background-image: url(../img/mainbg.jpg);
+	background-position: center;
+	background-color: #000;
+	background-repeat: no-repeat;
+}
+h2{
+	font-size: 30px;
+}
+p{
+	font-size:14px;
+}
+.visually-hidden{
+	position: absolute;
+	top: -2000px;
+}
+.container {
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	border: 0;
+}
+.btn{
+	color: #fff;
+	font-size:14px;
+	padding:12px 34px;
+	background-color: #000;
+	border: 0;
+	font-family: inherit;
+	text-decoration: none;
+}
+header {
+	background-color: #000;
+	margin: 0;
+	padding: 0;
+}
+ul {
 	list-style: none;
 }
-header{
-	background-color: #000;
-
-	font-family: "PT Sans Narrow", sans-serif;
+header a {
 	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+section.promo{
+	color:#f7f4f1;
+}
+.widget{
+	background-color: #D3D7CFFF;
+	background-image: url(../img/widgetbg.jpg);
+	background-repeat: repeat;
+}
+
+footer{
+	background-color: #2E3436FF;
+	background-image: url(../img/footerbg.jpg);
+	background-repeat: repeat;
+}
+footer p{
 	color:#fff;
 }
