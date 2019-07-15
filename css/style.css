@@ -10,7 +10,7 @@ body {
 	padding: 0;
 	text-transform: uppercase;
 	background-image: url(../img/mainbg.jpg);
-	background-position: center;
+	background-position:top;
 	background-color: #000;
 	background-repeat: no-repeat;
 }
@@ -44,6 +44,7 @@ header {
 	background-color: #000;
 	margin: 0;
 	padding: 0;
+	min-height: 71px;
 }
 ul {
 	list-style: none;
@@ -86,3 +87,57 @@ footer p{
 .about a{
 	color:#fff;
 }
+
+/*------ END BASE SYLES -----------*/
+
+
+/*::::::: HEADER :::::::::::::::::::*/
+
+.menu-top{
+	display: flex;
+	justify-content:space-between;
+}
+	.menu-top__left-menu{
+		display: flex;
+		justify-content:space-between;
+		margin:0;
+		padding:0px 0px;
+	}
+		.menu-top__left-menu li{
+			display: flex;
+			margin:0;
+			padding:0;
+		}
+		.menu-top__left-menu a{
+			margin:0;
+			padding:23px 19px;
+			padding-bottom: 26px;
+		}
+	.menu-top__right-menu{
+		margin:0;
+		padding:0;
+	}
+		.menu-top__right-menu li{
+			display: flex;
+			margin:0;
+			padding:0;
+		}
+		.menu-top__right-menu a{
+			margin:0;
+			padding:22px 22px;
+			padding-left: 40px;
+			position: relative;
+			padding-bottom: 27px;
+		}
+		.menu-top__right-menu .login-ico{
+			position: absolute;
+			top: 26px;
+			left: 10px;
+			opacity: 0.2;
+		}
+	.menu-top a:hover{
+		background-color: #323232;
+	}
+	.menu-top a:hover .login-ico{
+		opacity: 1;
+	} 
