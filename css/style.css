@@ -361,9 +361,10 @@ footer p{
 }
 
 .register-popup{
+	position:relative;
 	top:118px;
 	
-	margin-top:118px;
+	margin-top:0px;
 	margin-left:auto;
 	margin-right:auto;
 
@@ -463,5 +464,32 @@ footer p{
 			display:block;
 			width:100%;
 			margin-top:10px;
+		}
+	.close-button{
+		position:absolute;
+		top: 6px;
+		right:-36px;
+		width: 25px;
+		height: 25px;
+		z-index:2;
+	}
+	.close-button:hover{
+		cursor:pointer;
+	}
+		.close-button::before,
+		.close-button::after{
+			position:absolute;
+			content:"";
+			background-color:#d0d0d0;
+			top: 11px;
+			left:2px;
+			width: 22px;
+			height: 4px;
+		}
+		.close-button::before{
+			transform:rotate(45deg);
+		}
+		.close-button::after{
+			transform:rotate(-45deg);
 		}
 /*::::::::::: REGISTER :::::::::::::::::*/
