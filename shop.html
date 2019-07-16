@@ -36,27 +36,63 @@
 					<li>Магазин</li>
 					<li>Средства для ухода</li>
 				</ul>
-				<form action="get" class="product-filter">
-					<h2>Производители</h2>
-					<label for="Baxter">Baxter of California</label>
-					<input type="checkbox" id="Baxter">
+				<div class="shop-content">
+					<form action="get" class="product-filter">
+						<h3>Производители:</h3>
+						<ul class="productors-list">
+							<li>
+								<input type="checkbox" id="Baxter">
+								<label for="Baxter">Baxter of California</label>
+							</li>
+							<li>
+								<input type="checkbox" id="Natty">
+								<label for="Natty">Mr Natty</label>
+							</li>
+							<li>
+								<input type="checkbox" id="Suavecito">
+								<label for="Suavecito">Suavecito</label>
+							</li>
+							<li>
+								<input type="checkbox" id="Malin-Goetz">
+								<label for="Malin-Goetz">Malin+Goetz</label>
+							</li>
+							<li>
+								<input type="checkbox" id="Murray">
+								<label for="Murray">Murray’s</label>
+							</li>
+							<li>
+								<input type="checkbox" id="AmericanCrew">
+								<label for="AmericanCrew">American Crew</label>
+							</li>
+						</ul>
 
-					<label for="Natty">Mr Natty</label>
-					<input type="checkbox" id="Natty">
+						<h3>Группы товаров:</h3>
 
-					<label for="Suavecito">Suavecito</label>
-					<input type="checkbox" id="Suavecito">
+						<label for="still"><input type="radio" id="still" name="category">Бритвенные принадлежности</label>					
+						<label for="cover"><input type="radio" id="cover" name="category">Средства для ухода</label>
+						<label for="accseses"><input type="radio" id="accseses" name="category">Аксессуары</label>
 
-					<label for="Malin-Goetz">Malin+Goetz</label>
-					<input type="checkbox" id="Malin-Goetz">
+						<button class="btn">Показать</button>
+					</form>
 
-					<label for="Murray">Murray’s</label>
-					<input type="checkbox" id="Murray">
-
-					<label for="AmericanCrew">American Crew</label>
-					<input type="checkbox" id="AmericanCrew">
-					<h2>Группы товаров</h2>
-				</form>
+					<div class="shop__product">
+						<div class="product__card">
+							<img src="img/prod1.jpg" height="165" width="220" alt="">
+							<p class="category">Набор для путешествий</p>
+							<p class="position">«Baxter of California»</p>
+							<div class="wrapper">
+								<p class="price">2990₽</p>
+								<a href="" class="btn">Купить</a>
+							</div>
+						</div>
+						<ul class="product__pagination">
+							<li class="pagination__button">1</li>
+							<li class="pagination__button">2</li>
+							<li class="pagination__button">3</li>
+							<li class="pagination__button">4</li>
+						</ul>
+					</div>
+				</div><!-- /.shop-content -->
 			</div>
 		</div>
 	</main>

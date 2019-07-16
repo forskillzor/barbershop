@@ -558,6 +558,96 @@ footer p{
 /*:::::::::::::::::::::::::::::::*/
 
 .shop{
+	margin-left:-30px;
+	margin-right:-30px;
+	padding-top:43px;
+	padding-left:30px;
 	background-color:#D3D7CFFF;
 	background-image:url(img/widgetbg.jpg);
 }
+	.shop h2{
+		margin-top:0px;
+		margin-bottom:21px
+	}
+	.shop-content h3{
+		margin-top: -8px;
+		margin-bottom:20px;
+		font-size:24px;
+	}
+	.beadcrumbs{
+		display:flex;
+		font-size:13px;
+		margin-top:0px;
+		margin-left:-10px;
+		margin-bottom: 56px;
+		padding-left:0px;
+		list-style-image:url("../img/romb.png");
+	}
+	.beadcrumbs li:first-child{
+		list-style:none;
+	}
+		.beadcrumbs li{
+			margin-right:36px;
+			padding-left:10px
+		}
+
+	.shop-content{
+		display: flex;
+	}
+		.shop__product{
+			padding-left:18px
+		}
+			.productors-list{
+					padding-left: 0px;
+					margin-bottom:48px;
+			}
+				.productors-list li{
+					line-height:36px;
+				}
+					.product-filter label{
+						display: inline;
+						font-size:14px;
+						padding-left:3px;
+					}
+					.product-filter input{
+						/*display: inline;*/
+						width:14px;
+					}
+
+		.product__card{
+			display: flex;
+			flex-direction:column;
+			box-sizing: border-box;
+			border:0;
+			width:220px;
+			height:290px;
+			background-color: #fff;
+		}
+
+			.product__card .category{
+				margin:0
+			}
+			.product__card .position{
+				margin:0
+			}
+			.product__card .wrapper{
+				display:flex;
+				justify-content:center;
+				align-items:center;
+			}
+				.product__card .price{
+					padding:12px 25px;
+					background-color:#e5e5e5;
+				}
+				.product__card .btn{
+
+				}
+		.product__pagination{
+			display:flex;
+			justify-content:space-between;
+			width:100px;
+		}
+			.pagination__button{
+				background-color:#000;
+				color:#fff;
+			}
