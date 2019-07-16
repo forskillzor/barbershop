@@ -1,13 +1,26 @@
-var registerButton = document.querySelector(".register-button");
-var registerClose = document.querySelector(".register-popup-close");
-var registerPopup = document.querySelector(".popup-container");
+var registerButtonShow = document.querySelector(".register-button");
+var registerButtonHide = document.querySelector(".register-popup-close");
+var registerPopup = document.querySelector("#register");
 
-registerButton.addEventListener("click", function(evt){
+var mapButtonShow = document.querySelector("#js-map-show");
+var mapButtonHide = document.querySelector(".map-popup-close");
+var mapPopup = document.querySelector("#map");
+
+registerButtonShow.addEventListener("click", function(evt){
 	evt.preventDefault();
     registerPopup.classList.add("register-popup-show");
 
 });
-registerClose.addEventListener("click", function(evt){
+registerButtonHide.addEventListener("click", function(evt){
     evt.preventDefault();
     registerPopup.classList.remove("register-popup-show");
 });
+mapButtonShow.addEventListener("click", function(evt){
+	evt.preventDefault();
+	mapPopup.classList.add("map-popup-show");
+});
+mapButtonHide.addEventListener("click", function(evt){
+	evt.preventDefault();
+	mapPopup.classList.remove("map-popup-show");
+});
+/*map-popup-show*/

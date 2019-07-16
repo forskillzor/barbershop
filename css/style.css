@@ -350,6 +350,9 @@ footer p{
 /*::::::::::::::::::::::::::::::::::::::*/
 /*::::::::: POPUPS :::::::::::::::::::::*/
 /*::::::::::::::::::::::::::::::::::::::*/
+
+/*::::::::: REGISTER POPUP :::::::::::::::::::::*/
+
 .popup-container{
 	position:fixed;
 	top:0;
@@ -360,10 +363,6 @@ footer p{
 	justify-content:space-between;
 	background-color:rgba(0,0,0,0.8);
 }
-.popup-container.register-popup-show{
-
-}
-
 .register-popup{
 	position:relative;
 	top:118px;
@@ -502,4 +501,50 @@ footer p{
 		.register-popup-close::after{
 			transform:rotate(-45deg);
 		}
-/*::::::::::: REGISTER :::::::::::::::::*/
+/*----------- end register popup --------*/
+
+/*::::::::::: MAP POPUP :::::::::::::::::*/
+.map-popup {
+	position:relative;
+	top:118px;
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	box-sizing:border-box;
+	width:780px;
+	height:575px;
+	border:7px solid #fff;
+}
+	.static-map{
+		width:100%;
+		height:100%;	
+	}
+	.map-popup-close{
+		position:absolute;
+		top:0px;
+		right:-15px;
+	}
+	.map-popup-close:hover{
+		cursor:pointer;
+	}
+		.map-popup-close::before,
+		.map-popup-close::after{
+			position:absolute;
+			content:"";
+			background-color:#d0d0d0;
+			top: 11px;
+			left:2px;
+			width: 22px;
+			height: 4px;
+		}
+		.map-popup-close::before{
+			transform:rotate(45deg);
+		}
+		.map-popup-close::after{
+			transform:rotate(-45deg);
+		}
+
+	.map-popup-show{
+		left:0;
+	}
