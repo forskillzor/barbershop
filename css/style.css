@@ -548,3 +548,16 @@ footer p{
 	.map-popup-show{
 		left:0;
 	}
+/*  ------ end popups ----------*/
+
+/*------ END INDEX.HTML ---------*/
+
+
+/*:::::::::::::::::::::::::::::::*/
+/*::::::: SHOP.HTML :::::::::::::*/
+/*:::::::::::::::::::::::::::::::*/
+
+.shop{
+	background-color:#D3D7CFFF;
+	background-image:url(img/widgetbg.jpg);
+}
