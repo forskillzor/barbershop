@@ -595,7 +595,12 @@ footer p{
 		display: flex;
 	}
 		.shop__product{
-			padding-left:18px
+			margin-top:-10px;
+			padding-left:8px;
+			display:flex;
+			width:728px;
+			box-sizing:border-box;
+			flex-wrap:wrap;	
 		}
 			.productors-list{
 					padding-left: 0px;
@@ -613,6 +618,12 @@ footer p{
 						/*display: inline;*/
 						width:14px;
 					}
+			.product-list{
+				padding-left:0;
+			}
+				.product-list li{
+					line-height: 36px;
+				}
 
 		.product__card{
 			display: flex;
@@ -620,34 +631,52 @@ footer p{
 			box-sizing: border-box;
 			border:0;
 			width:220px;
-			height:290px;
+			height:286px;
 			background-color: #fff;
+			margin:10px;
+		}
+		.product__card:hover{
+			box-shadow:0px 0px 12px 4px rgba(0,0,0,0.5)
 		}
 
 			.product__card .category{
-				margin:0
+				margin-top:12px;
+				margin-bottom:0px;
+				margin-left:17px;
+				text-transform:none
 			}
 			.product__card .position{
-				margin:0
+				margin:0;
+				margin-left:15px;
 			}
 			.product__card .wrapper{
 				display:flex;
 				justify-content:center;
 				align-items:center;
+				margin-left:0px
 			}
 				.product__card .price{
-					padding:12px 25px;
+					padding:12px 37px;
 					background-color:#e5e5e5;
 				}
 				.product__card .btn{
-
+					padding:12px 19px;
 				}
 		.product__pagination{
+			margin-top:35px;
 			display:flex;
 			justify-content:space-between;
-			width:100px;
+			width:auto;
+			padding-left:11px;
+			align-items:center;
+			align-content:center;
 		}
 			.pagination__button{
+				text-align:center;
 				background-color:#000;
 				color:#fff;
+				width:43px;
+				height:43px;
+				margin-right:7px;
+				line-height:40px;
 			}
