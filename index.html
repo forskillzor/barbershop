@@ -61,6 +61,7 @@
                     </div><!-- /.scroll-area -->
                     <a href="" class="btn all-news">все новости</a>
                 </div><!-- /.widget__left-block -->
+                <img src="img/border.png" class="border"/>
                 <div class="widget__right-block">
                     <h2>Фотогалерея</h2>
                     <img src="img/1.jpg" height="164" width="286" alt="" class="slider">
@@ -82,10 +83,11 @@
                         <a class="btn" href="">Обратная связь</a>
                     </div>
                 </div><!-- /.widget__left-block -->
+                <img src="img/border.png" class="border"/>
                 <div class="widget__right-block">
                     <h2>Записаться</h2>
                     <p>УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
-                    <form action="get">
+                    <form action="get" class="feedback">
                         <div class="input-wraper">
                             <div class="input-group">
                                 <label for="date">Дата</label>
@@ -141,5 +143,30 @@
             </div><!-- /.copyright -->
         </div><!-- /.container -->
     </footer>
+
+<!-- :::::POPUPS::::::::::::::::::::: -->
+
+<!-- :::::REGISTER POPUP:::::::::::-->
+
+<div class="popup-container">
+    <div class="register-popup">
+        <form class="register-form">
+            <h2>Личный кабинет</h2>
+            <p>Введите пожалуйста свой логин и пароль</p>
+            <label for="login" class="visually-hidden">Логин</label>
+            <input type="text" id="login" name="login" placeholder="Логин"><br>
+            <label for="password" class="visually-hidden">Пароль</label>
+            <input type="password" id="password" name="password" placeholder="Пароль">
+            <div class="remember-block-wrapper">
+                <input type="checkbox" id="remember-me" name="remember_me">
+                <div class="checkbox"></div>
+                <label for="remember-me">Запомните меня</label>
+                <a href="" class="">Я забыл пароль!</a>
+            </div>
+            <button type="submit" class="btn">Войти</button>
+        </form>
+    </div>
+</div>
+
 </body>
 </html>
