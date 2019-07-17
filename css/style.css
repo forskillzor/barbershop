@@ -128,7 +128,7 @@ footer p{
 		.menu-top__left-menu a{
 			margin:0;
 			padding:23px 19px;
-			padding-bottom: 26px;
+			padding-bottom: 20px;
 		}
 		.menu-top__left-menu a.active{
 			position:relative;
@@ -576,11 +576,11 @@ footer p{
 .shop{
 	margin-left:-30px;
 	margin-right:-30px;
-	padding-top:43px;
+	padding-top: 49px;
 	padding-left:30px;
 	padding-bottom:33px;
+	background-image:url(../img/widgetbg.jpg);
 	background-color:#D3D7CFFF;
-	background-image:url(img/widgetbg.jpg);
 }
 	.shop h2{
 		margin-top:0px;
@@ -706,9 +706,10 @@ footer p{
 			height:286px;
 			background-color: #fff;
 			margin:10px;
+			box-shadow:0px 0px 20px -10px rgba(0,0,0,0.5);
 		}
 		.product__card:hover{
-			box-shadow:0px 0px 12px 4px rgba(0,0,0,0.5)
+			box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);
 		}
 
 			.product__card .category{
@@ -721,17 +722,17 @@ footer p{
 				margin:0;
 				margin-left:15px;
 			}
-			.product__card .wrapper{
+			.price-wrapper{
 				display:flex;
 				justify-content:center;
 				align-items:center;
 				margin-left:0px
 			}
-				.product__card .price{
+				.price-wrapper .price{
 					padding:12px 37px;
 					background-color:#e5e5e5;
 				}
-				.product__card .btn{
+				.price-wrapper .btn{
 					padding:12px 19px;
 				}
 		.product__pagination{
@@ -763,3 +764,30 @@ footer p{
 				padding: 12px 17px;
 				text-decoration: none;
 			}
+
+/*----- end shop.html -----------*/
+
+
+/*:::::::::::::::::::::::::::::::*/
+/*::::::: ITEM.HTML :::::::::::::*/
+/*:::::::::::::::::::::::::::::::*/
+
+.item-big{
+	margin:0px;
+	margin-bottom:13px;
+}
+
+.item-wrapper{
+	display: flex;
+	margin-bottom:6px;
+}
+	
+	.item-mini:first-child{
+		margin-left: 0px;
+	}
+	.item-mini{
+		margin:10px;
+	}
+	.item-mini:nth-child(3n){
+		margin-right:0px;
+	}
