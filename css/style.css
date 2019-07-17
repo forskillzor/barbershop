@@ -834,3 +834,36 @@ footer p{
 			line-height:24px;
 			list-style-image: url(../img/romb.png);
 		}
+
+/* --------- end iten.html ---------------*/
+
+/*:::::::::::::::::::::::::::::::*/
+/*::::::: ITEM.HTML :::::::::::::*/
+/*:::::::::::::::::::::::::::::::*/
+
+.price-list__header-flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 940px;
+	margin-top: -12px;
+}
+	
+.price-list{}
+
+	.price-list__header-flex h1{
+		font-size: 48px;
+		margin:0px;
+	}
+	.price-list__header-flex h3{
+		font-size:24px;
+	}
+	.price-list .what-we-use {
+		font-size:14px;
+	}
+
+	.price-list table td{
+		font-size:14px;
+
+		border:1px solid #000;
+	}
