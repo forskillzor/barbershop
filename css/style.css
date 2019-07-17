@@ -574,13 +574,14 @@ footer p{
 	align-items:flex-start
 }
 .shop{
-	margin-left:-30px;
-	margin-right:-30px;
+	margin-left: -60px;
+	margin-right: -60px;
 	padding-top: 49px;
-	padding-left:30px;
+	padding-left: 60px;
 	padding-bottom:33px;
 	background-image:url(../img/widgetbg.jpg);
 	background-color:#D3D7CFFF;
+	box-shadow: 0px 30px 29px 20px rgba(0,0,0);
 }
 	.shop h2{
 		margin-top:0px;
@@ -707,6 +708,7 @@ footer p{
 			background-color: #fff;
 			margin:10px;
 			box-shadow:0px 0px 20px -10px rgba(0,0,0,0.5);
+			
 		}
 		.product__card:hover{
 			box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);
@@ -775,6 +777,10 @@ footer p{
 .item-big{
 	margin:0px;
 	margin-bottom:13px;
+	box-shadow:0px 0px 20px -10px rgba(0,0,0,0.5);
+}
+.item-big:hover{
+	box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);
 }
 
 .item-wrapper{
@@ -787,7 +793,44 @@ footer p{
 	}
 	.item-mini{
 		margin:10px;
+		box-shadow:0px 0px 20px -10px rgba(0,0,0,0.5);
+	}
+	.item-mini:hover{
+		box-shadow:0px 0px 10px 0px rgba(0,0,0,0.5);
 	}
 	.item-mini:nth-child(3n){
 		margin-right:0px;
 	}
+.product-description{
+	margin-left:90px;
+	width:375px;
+	padding-top:10px;
+}
+	.product-description__info{
+		display: flex;
+		justify-content:space-between;
+		width: 380px;
+		margin-bottom:18px;
+	}
+		.product-description__info .art{
+			color:#aeaeae;
+		}
+	.product-description__desc{
+		line-height:24px;
+		margin-bottom:22px;
+	}
+	.product-description .price-wrapper{
+		justify-content:flex-start;
+		margin-bottom:56px;
+	}
+	.product-complect{}
+	
+		.product-complect .header{
+			margin-bottom: 27px;
+		}
+		.product-complect__list{
+			padding-left:20px;
+			font-size:14px;
+			line-height:24px;
+			list-style-image: url(../img/romb.png);
+		}
