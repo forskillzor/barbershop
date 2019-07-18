@@ -578,6 +578,7 @@ footer p{
 	margin-right: -60px;
 	padding-top: 49px;
 	padding-left: 60px;
+	padding-right:60px;
 	padding-bottom:33px;
 	background-image:url(../img/widgetbg.jpg);
 	background-color:#D3D7CFFF;
@@ -846,31 +847,62 @@ footer p{
 	justify-content: space-between;
 	align-items: center;
 	width: 940px;
+	margin-bottom: 13px;
 	margin-top: -12px;
 }
 	
-.price-list{}
+.price-list{
+	margin-bottom:55px;
+}
 
 	.price-list__header-flex h1{
 		font-size: 48px;
 		margin:0px;
 	}
-	.price-list__header-flex h3{
+	.price-list-row{
+		display:flex;
+		justify-content:flex-start;
+		margin-bottom:-10px;
+		margin-left:-30px;
+	}
+	.price-list-col{
+		width:420px;
+		margin-left:30px;
+		margin-right:30px;
+	}
+	.price-list  h3{
 		font-size:24px;
+		margin-top: 40px;
+		margin-bottom: 27px;
 	}
 	.price-list .what-we-use {
+		margin-top: -7px;
+		margin-bottom:20px;
 		font-size:14px;
+		line-height:37px;
+		padding-left:18px;
+		list-style-image: url(../img/romb.png);
 	}
 
 	.price-table{
 		display: table;
 		font-size:14px;
 		border-collapse:collapse;
+		width:458px;
+		height:124px;
+		margin-top:33px;
 		
 		border:1px solid #000;
 	}
 		.table-row{display: table-row;}
 		.table-cell{
 			display: table-cell;
-			border:1px solid #000;
+			border:2px solid #000;
+			padding:10px 10px;
 		}
+	.price-list p{
+		margin:0px;
+		max-width:400px;
+		font-size:14px;
+		line-height:24px;
+	}
