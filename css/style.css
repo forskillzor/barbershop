@@ -862,8 +862,15 @@ footer p{
 		font-size:14px;
 	}
 
-	.price-list table td{
+	.price-table{
+		display: table;
 		font-size:14px;
-
+		border-collapse:collapse;
+		
 		border:1px solid #000;
 	}
+		.table-row{display: table-row;}
+		.table-cell{
+			display: table-cell;
+			border:1px solid #000;
+		}
